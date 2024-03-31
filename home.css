@@ -1,0 +1,26 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+body {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.moving-text {
+  font-size: 50px;
+  color: white;
+}
+
+.word1 {
+  display: inline-flex;
+  animation: mword1 1s infinite alternate;
+}
+
+.word2 {
+  display: inline-flex;
+  animation: mword2 1.5s infinite alternate;
+}
